@@ -3,15 +3,15 @@
 # （部署时 `cf deploy` 会保留机密，但会丢弃未写入配置的普通文本变量）。
 
 # --- 必填 ---
-BETTER_AUTH_SECRET=your-secret-key-run-openssl-rand-hex-32
-BETTER_AUTH_URL=http://localhost:3000
+BETTER_AUTH_SECRET=sJsKyNiVlSgTcMwZpNuVeGpBtXnOlQeV
+BETTER_AUTH_URL=http://maxfox.us.ci
 GITHUB_CLIENT_ID=MaxFox0311
 GITHUB_CLIENT_SECRET=laiwenfeng0311
 DOMAIN=maxfox.us.ci
 
 # 仅本地开发使用。设为 dev 时不会真正发信，验证链接打在控制台。
 # 生产环境不要设置，或设为 prod。
-ENVIRONMENT=dev
+ENVIRONMENT=prod
 
 # --- 可选：Umami ---
 # 客户端埋点还需要构建时变量 VITE_UMAMI_WEBSITE_ID，website id 两边填同一个。
