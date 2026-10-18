@@ -6,7 +6,7 @@
 BETTER_AUTH_SECRET=sJsKyNiVlSgTcMwZpNuVeGpBtXnOlQeV
 BETTER_AUTH_URL=http://maxfox.us.ci
 GITHUB_CLIENT_ID=Ov23liY61AI5tIkmcUs0
-GITHUB_CLIENT_SECRET=laiwenfeng0311
+GITHUB_CLIENT_SECRET=940cf7a8076f3739c04cad0e45c6bd93a75082d2
 DOMAIN=maxfox.us.ci
 
 # 仅本地开发使用。设为 dev 时不会真正发信，验证链接打在控制台。
